@@ -1,0 +1,13 @@
+build/
+*.o
+*.d
+*.log
+*.debug
+*.pdb
+*.vcxproj*
+*.suo
+*.user
+*.sdf
+*.opensdf
+.DS_Store
+.idea/
