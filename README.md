@@ -1,4 +1,6 @@
-# hakrevdns
+# hakrevdns++
+
+This project is re-written in C++ using ChatGTP.
 
 Small, fast, simple tool for performing reverse DNS lookups en masse.
 
@@ -9,7 +11,8 @@ This can be a useful way of finding domains and subdomains belonging to a compan
 ## Installation
 
 ```sh
-go install github.com/hakluke/hakrevdns@latest
+cmake --preset=default
+cmake --build build
 ```
 
 ## Usage
@@ -70,6 +73,7 @@ $ echo "173.0.84.110" | hakrevdns -d | httprobe
 ```
 
 ## Contributors
+- [Moisrex](https://twitter.com/the_moisrex) Rewrote it in C++
 - [hakluke](https://twitter.com/hakluke) wrote the tool
 - [alphakilo](https://github.com/Alphakilo/) added the option to use custom resolvers
 - [SaveBreach](https://twitter.com/SaveBreach/) added the -d flag and cleaned up the code
